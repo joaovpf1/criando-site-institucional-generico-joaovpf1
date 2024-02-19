@@ -1,0 +1,94 @@
+.header__button{
+    width: 241px;
+    height: 60px;
+    background-color: var(--background-gray-0);
+    border: 1px solid var(--text-gray-5);
+
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-gray-5);
+
+    cursor: pointer;
+}
+
+.header__button:hover{
+    background-color: var(--brand-color2);
+    border: 1px solid var(--background-gray-0);
+}
+
+.modal__close-button {
+    background-color: var(--background-gray-2);
+    width: 32px;
+    height: 32px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #868E96;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+.modal__send-button{
+    width: 448px;
+    height: 60px;
+
+    background-color: var(--brand-color1);
+    color: var(--text-gray-5);
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+.modal__send-button:hover{
+    background-color: var(--brand-color2);
+}
+
+.main__primary--button{
+    width: 133px;
+    height: 60px;
+
+    background-color: var(--brand-color1);
+    border: 1px solid var(--brand-color1);
+
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--font-family);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.main__primary--button:hover{
+    background-color: var(--brand-color2);
+}
+
+.section__primary--button{
+    width: 241px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--brand-color1);
+    border: 1px solid var(--brand-color1);
+
+    color: var(--text-gray-5);
+    font-size: 14px;
+    font-family: var(--font-family);
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.section__primary--button:hover{
+    background-color: var(--brand-color2);
+}

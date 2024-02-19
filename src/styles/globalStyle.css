@@ -1,0 +1,17 @@
+:root {
+    --brand-color1: #4c6ef5;
+    --brand-color2: #364fc7;
+    --background-gray-0: #191c1f;
+    --background-gray-1: #212529;
+    --background-gray-2: #343a40;
+    --text-gray-3: #adb5bd;
+    --text-gray-4: #ced4da;
+    --text-gray-5: #f8f9fa;
+    --font-family: 'Inter', sans-serif;
+}
+
+body {
+    position: relative;
+    font-family: var(--font-family);
+}
+
